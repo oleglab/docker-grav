@@ -1,5 +1,5 @@
 # docker-grav
-A docker image from alpine linux with nginx, php-fpm on unix socket and grav.
+A docker image from ALPINE Linux with NGINX, PHP-FPM through unix socket and GRAV.
 
 
 Running a new **Grav** site is a simple affair with [Docker](https://docker.com).  Simply follow these simple steps:
