@@ -12,6 +12,6 @@ Running a new **Grav** site is a simple affair with [Docker](https://docker.com)
 3. Open your new site on port 80 and follow the Grav's instructions...
 4. To install [admin plugin](https://getgrav.org/downloads/plugins) execute the following command:
 
-       $docker exec grav sh -c 'cd /www && php bin/gpm install admin' 
+        $docker exec grav sh -c 'cd /www && php bin/gpm install admin' 
 
 5. Open / - home page, or /admin - for site administration. Enjoy!!!
