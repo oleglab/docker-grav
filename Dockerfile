@@ -17,7 +17,6 @@ RUN apk --update add nginx php-fpm wget curl git zip unzip php php-curl php-zip 
     touch /var/log/nginx/access.log && \
     mkdir -p /tmp/nginx && \
     echo "clear_env = no" >> /etc/php/php-fpm.conf
-ADD www /www
 
 #Add nginx and php-fpm configuration
 ADD etc /etc
