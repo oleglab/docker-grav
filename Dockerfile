@@ -1,7 +1,7 @@
 FROM alpine:3.3
 
 #Install grav into /www folder
-RUN apk --update add nginx php-fpm wget curl git php php-curl php-openssl php-json php-phar php-dom php-gd php-ctype php-xml && \
+RUN apk --update add nginx php-fpm wget curl git zip unzip php php-curl php-zip php-openssl php-json php-phar php-dom php-gd php-ctype php-xml && \
     rm /var/cache/apk/* && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && \
     mkdir /www && cd /www && \
